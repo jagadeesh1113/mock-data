@@ -1,8 +1,15 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "task_config": [
+    {
+      "id": 1,
+      "name": "Verify RC",
+      "cta": "FORM_SUBMIT"
+    },
+    {
+      "id": 2,
+      "name": "Verify Invoice",
+      "cta": "FORM_SUBMIT"
+    }
   ],
   "comments": [
     { "id": 1, "body": "some comment", "postId": 1 },
