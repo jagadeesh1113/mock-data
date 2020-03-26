@@ -1,16 +1,10 @@
 {
-  "task_config": [
-    {
-      "id": 1,
-      "name": "Verify RC",
-      "cta": "FORM_SUBMIT"
-    },
-    {
-      "id": 2,
-      "name": "Verify Invoice",
-      "cta": "FORM_SUBMIT"
+  "task_config": {
+    "error": {
+      "code": 400,
+      "text": "Task config error"
     }
-  ],
+  },
   "stats": {
     "tasks": {
       "allotted": 100,
